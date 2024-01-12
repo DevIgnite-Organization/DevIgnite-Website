@@ -39,42 +39,50 @@ function Partners() {
                     {activeTab === 'sponsors' && (
                         // Render content for the Sponsors tab
                         <div className='sponsors-main'>
-                            <div className='platinum-div'>
+                           
+                            <div className='gold-div'>
                                 <div className='heading-p-d'>
                                     Platinum
                                 </div>
-                                <div className='platinum-logo-div'>
-                                    <Image
+                                <div className='gold-logo-group'>
+                                <div className='gold-logo-div'>
+                                <Image
                                         src='/Devfolio_Logo-Black.png'
                                         width='500'
                                         height='500'
                                         alt='DEVFOLIO LOGO'
                                     />
                                 </div>
-                            </div>
-                            <div className='gold-div'>
-                                <div className='heading-p-d'>
-                                    Gold
-                                </div>
-                                <div className='gold-logo-group'>
                                 <div className='gold-logo-div'>
-                                    <Image
-                                        src='/polygon_Logo-Dark.png'
-                                        width='500'
-                                        height='500'
-                                        alt='DEVFOLIO LOGO'
-                                    />
-                                </div>
-                                <div className='gold-logo-div'>
-                                    <Image
+                                    {/* <Image
                                         src='/Replit-light-background.png'
                                         width='500'
                                         height='500'
                                         alt='DEVFOLIO LOGO'
+                                    /> */}
+                                      <Image
+                                        src='/polygon_Logo-Dark.png'
+                                        width='500'
+                                        height='500'
+                                        alt='POLYGON LOGO'
                                     />
                                 </div>
                                 </div>
                                
+                            </div>
+                            <div className='platinum-div'>
+                                <div className='heading-p-d'>
+                                    Gold
+                                </div>
+                                <div className='platinum-logo-div'>
+                                <Image
+                                        src='/Replit-light-background.png'
+                                        width='500'
+                                        height='500'
+                                        alt='REPLIT LOGO'
+                                    />
+                                </div>
+                             
                             </div>
                         </div>
                     )}

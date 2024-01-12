@@ -32,7 +32,7 @@ function Navbar() {
                 </div>
                 <div className='link-box'>
                     <Link href=''>
-                        Humans
+                        Teams
                     </Link>
                 </div>
                 <div className='link-box'>
