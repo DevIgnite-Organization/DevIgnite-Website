@@ -61,7 +61,7 @@ function Partners() {
                                         alt='DEVFOLIO LOGO'
                                     /> */}
                                       <Image
-                                        src='/polygon_Logo-Dark.png'
+                                        src='/Polygon-logo.png'
                                         width='500'
                                         height='500'
                                         alt='POLYGON LOGO'
