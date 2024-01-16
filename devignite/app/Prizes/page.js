@@ -6,7 +6,7 @@ function page() {
   return (
     <main className='main'>
         <Navbar />
-
+     <h1>coming soon..</h1>
         <BottomBar />
     </main>
   )
