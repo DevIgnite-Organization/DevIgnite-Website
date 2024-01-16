@@ -26,12 +26,17 @@ function Navbar() {
                     </Link>
                 </div>
                 <div className='link-box'>
-                    <Link href=''>
+                    <Link href='/Tracks'>
                         Tracks
                     </Link>
                 </div>
                 <div className='link-box'>
-                    <Link href=''>
+                    <Link href='/Prizes'>
+                        Prizes
+                    </Link>
+                </div>
+                <div className='link-box'>
+                    <Link href='/Teams'>
                         Teams
                     </Link>
                 </div>
