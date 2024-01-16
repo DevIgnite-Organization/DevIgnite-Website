@@ -13,19 +13,19 @@ function page() {
     setActiveTab(tab);
   };
   return (
-    <div className="partners-main">
+    <div classNameName="partners-main">
       <Navbar />
-      <div className="heading">Teams</div>
-      <div className="partners-container">
-        <div className="tabs-container">
+      <div classNameName="heading">Teams</div>
+      <div classNameName="partners-container">
+        <div classNameName="tabs-container">
           <div
-            className={`tab ${activeTab === "sponsors" ? "active" : ""}`}
+            classNameName={`tab ${activeTab === "sponsors" ? "active" : ""}`}
             onClick={() => handleTabClick("sponsors")}
           >
             Organizers
           </div>
           <div
-            className={`tab ${
+            classNameName={`tab ${
               activeTab === "communityPartners" ? "active" : ""
             }`}
             onClick={() => handleTabClick("communityPartners")}
@@ -34,13 +34,13 @@ function page() {
           </div>
         </div>
 
-        <div className="content-container">
+        <div classNameName="content-container">
           {activeTab === "sponsors" && (
             // Render content for the Sponsors tab
-            <div className="sponsors-main">
-              <div className="org-teams-main">
-              <div className="profile-box">
-                  <div className="profile-img">
+            <div classNameName="sponsors-main">
+              <div classNameName="org-teams-main">
+              <div classNameName="profile-box">
+                  <div classNameName="profile-img">
                     <Image
                       src="/teams/umakant-sir.jpg"
                       width="500"
@@ -48,13 +48,13 @@ function page() {
                       alt="team"
                     />
                   </div>
-                  <div className="profile-details">
-                    <div className="profile-name">Dr.Umakant Gohatre</div>
-                    <div className="profile-tag">Faculty Co-ordinator</div>
+                  <div classNameName="profile-details">
+                    <div classNameName="profile-name">Dr.Umakant Gohatre</div>
+                    <div classNameName="profile-tag">Faculty Co-ordinator</div>
                   </div>
                 </div>
-                <div className="profile-box">
-                  <div className="profile-img">
+                <div classNameName="profile-box">
+                  <div classNameName="profile-img">
                     <Image
                       src="/teams/chetan.jpg"
                       width="500"
@@ -62,10 +62,10 @@ function page() {
                       alt="team"
                     />
                   </div>
-                  <div className="profile-details">
-                    <div className="profile-name">Chetan Choudhari</div>
-                    <div className="profile-tag">Lead Organizer</div>
-                    <div className="profile-links">
+                  <div classNameName="profile-details">
+                    <div classNameName="profile-name">Chetan Choudhari</div>
+                    <div classNameName="profile-tag">Lead Organizer</div>
+                    <div classNameName="profile-links">
                       <Link href="">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -74,10 +74,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-twitter"
+                          className="lucide lucide-twitter"
                         >
                           <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                         </svg>
@@ -90,10 +90,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-linkedin"
+                          className="lucide lucide-linkedin"
                         >
                           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                           <rect width="4" height="12" x="2" y="9" />
@@ -108,10 +108,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-instagram"
+                          className="lucide lucide-instagram"
                         >
                           <rect
                             width="20"
@@ -128,8 +128,8 @@ function page() {
                     </div>
                   </div>
                 </div>
-                <div className="profile-box">
-                  <div className="profile-img">
+                <div classNameName="profile-box">
+                  <div classNameName="profile-img">
                     <Image
                       src="/teams/anas.jpg"
                       width="500"
@@ -137,10 +137,10 @@ function page() {
                       alt="team"
                     />
                   </div>
-                  <div className="profile-details">
-                    <div className="profile-name">Anas Khan</div>
-                    <div className="profile-tag">Co-Lead Organizer</div>
-                    <div className="profile-links">
+                  <div classNameName="profile-details">
+                    <div classNameName="profile-name">Anas Khan</div>
+                    <div classNameName="profile-tag">Co-Lead Organizer</div>
+                    <div classNameName="profile-links">
                       <Link href="">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -149,10 +149,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-twitter"
+                          className="lucide lucide-twitter"
                         >
                           <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                         </svg>
@@ -165,10 +165,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-linkedin"
+                          className="lucide lucide-linkedin"
                         >
                           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                           <rect width="4" height="12" x="2" y="9" />
@@ -183,10 +183,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-instagram"
+                          className="lucide lucide-instagram"
                         >
                           <rect
                             width="20"
@@ -203,8 +203,8 @@ function page() {
                     </div>
                   </div>
                 </div>
-                <div className="profile-box">
-                  <div className="profile-img">
+                <div classNameName="profile-box">
+                  <div classNameName="profile-img">
                     <Image
                       src="/teams/danish.jpg"
                       width="500"
@@ -212,10 +212,10 @@ function page() {
                       alt="team"
                     />
                   </div>
-                  <div className="profile-details">
-                    <div className="profile-name">Siddiqui Danish</div>
-                    <div className="profile-tag">Co-Lead Organizer</div>
-                    <div className="profile-links">
+                  <div classNameName="profile-details">
+                    <div classNameName="profile-name">Siddiqui Danish</div>
+                    <div classNameName="profile-tag">Co-Lead Organizer</div>
+                    <div classNameName="profile-links">
                       <Link href="">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -224,10 +224,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-twitter"
+                          className="lucide lucide-twitter"
                         >
                           <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                         </svg>
@@ -240,10 +240,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-linkedin"
+                          className="lucide lucide-linkedin"
                         >
                           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                           <rect width="4" height="12" x="2" y="9" />
@@ -258,10 +258,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-instagram"
+                          className="lucide lucide-instagram"
                         >
                           <rect
                             width="20"
@@ -278,8 +278,8 @@ function page() {
                     </div>
                   </div>
                 </div>
-                <div className="profile-box">
-                  <div className="profile-img">
+                <div classNameName="profile-box">
+                  <div classNameName="profile-img">
                     <Image
                       src="/teams/sangharaj.jpg"
                       width="500"
@@ -287,10 +287,10 @@ function page() {
                       alt="team"
                     />
                   </div>
-                  <div className="profile-details">
-                    <div className="profile-name">Sangharaj jadhav</div>
-                    <div className="profile-tag">Tech Lead</div>
-                    <div className="profile-links">
+                  <div classNameName="profile-details">
+                    <div classNameName="profile-name">Sangharaj jadhav</div>
+                    <div classNameName="profile-tag">Tech Lead</div>
+                    <div classNameName="profile-links">
                       <Link href="">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -299,10 +299,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-twitter"
+                          className="lucide lucide-twitter"
                         >
                           <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                         </svg>
@@ -315,10 +315,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-linkedin"
+                          className="lucide lucide-linkedin"
                         >
                           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                           <rect width="4" height="12" x="2" y="9" />
@@ -333,10 +333,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-instagram"
+                          className="lucide lucide-instagram"
                         >
                           <rect
                             width="20"
@@ -353,8 +353,8 @@ function page() {
                     </div>
                   </div>
                 </div>
-                <div className="profile-box">
-                  <div className="profile-img">
+                <div classNameName="profile-box">
+                  <div classNameName="profile-img">
                     <Image
                       src="/teams/hamsika-2.jpg"
                       width="500"
@@ -362,10 +362,10 @@ function page() {
                       alt="team"
                     />
                   </div>
-                  <div className="profile-details">
-                    <div className="profile-name">Hamsika Deva</div>
-                    <div className="profile-tag">Logistic Lead</div>
-                    <div className="profile-links">
+                  <div classNameName="profile-details">
+                    <div classNameName="profile-name">Hamsika Deva</div>
+                    <div classNameName="profile-tag">Logistic Lead</div>
+                    <div classNameName="profile-links">
                       <Link href="">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -374,10 +374,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-twitter"
+                          className="lucide lucide-twitter"
                         >
                           <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                         </svg>
@@ -390,10 +390,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-linkedin"
+                          className="lucide lucide-linkedin"
                         >
                           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                           <rect width="4" height="12" x="2" y="9" />
@@ -408,10 +408,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-instagram"
+                          className="lucide lucide-instagram"
                         >
                           <rect
                             width="20"
@@ -428,8 +428,8 @@ function page() {
                     </div>
                   </div>
                 </div>
-                <div className="profile-box">
-                  <div className="profile-img">
+                <div classNameName="profile-box">
+                  <div classNameName="profile-img">
                     <Image
                       src="/teams/mihir.jpg"
                       width="500"
@@ -437,10 +437,10 @@ function page() {
                       alt="team"
                     />
                   </div>
-                  <div className="profile-details">
-                    <div className="profile-name">Mihir Patil</div>
-                    <div className="profile-tag">Management Lead</div>
-                    <div className="profile-links">
+                  <div classNameName="profile-details">
+                    <div classNameName="profile-name">Mihir Patil</div>
+                    <div classNameName="profile-tag">Management Lead</div>
+                    <div classNameName="profile-links">
                       <Link href="">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -449,10 +449,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-twitter"
+                          className="lucide lucide-twitter"
                         >
                           <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                         </svg>
@@ -465,10 +465,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-linkedin"
+                          className="lucide lucide-linkedin"
                         >
                           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                           <rect width="4" height="12" x="2" y="9" />
@@ -483,10 +483,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-instagram"
+                          className="lucide lucide-instagram"
                         >
                           <rect
                             width="20"
@@ -503,19 +503,19 @@ function page() {
                     </div>
                   </div>
                 </div>
-                <div className="profile-box">
-                  <div className="profile-img">
+                <div classNameName="profile-box">
+                  <div classNameName="profile-img">
                     <Image
-                      src="/teams/Muiz.jpeg"
+                      src="/teams/muiz.jpeg"
                       width="500"
                       height="500"
                       alt="team"
                     />
                   </div>
-                  <div className="profile-details">
-                    <div className="profile-name">Muiz Zatam</div>
-                    <div className="profile-tag">Documentation Lead</div>
-                    <div className="profile-links">
+                  <div classNameName="profile-details">
+                    <div classNameName="profile-name">Muiz Zatam</div>
+                    <div classNameName="profile-tag">Documentation Lead</div>
+                    <div classNameName="profile-links">
                       <Link href="">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -524,10 +524,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-twitter"
+                          className="lucide lucide-twitter"
                         >
                           <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                         </svg>
@@ -540,10 +540,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-linkedin"
+                          className="lucide lucide-linkedin"
                         >
                           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                           <rect width="4" height="12" x="2" y="9" />
@@ -558,10 +558,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-instagram"
+                          className="lucide lucide-instagram"
                         >
                           <rect
                             width="20"
@@ -578,8 +578,8 @@ function page() {
                     </div>
                   </div>
                 </div>
-                <div className="profile-box">
-                  <div className="profile-img">
+                <div classNameName="profile-box">
+                  <div classNameName="profile-img">
                     <Image
                       src="/teams/sanjana.jpg"
                       width="500"
@@ -587,10 +587,10 @@ function page() {
                       alt="team"
                     />
                   </div>
-                  <div className="profile-details">
-                    <div className="profile-name">Sanjana Ghosh</div>
-                    <div className="profile-tag">Media Lead</div>
-                    <div className="profile-links">
+                  <div classNameName="profile-details">
+                    <div classNameName="profile-name">Sanjana Ghosh</div>
+                    <div classNameName="profile-tag">Media Lead</div>
+                    <div classNameName="profile-links">
                       <Link href="">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -599,10 +599,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-twitter"
+                          className="lucide lucide-twitter"
                         >
                           <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                         </svg>
@@ -615,10 +615,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-linkedin"
+                          className="lucide lucide-linkedin"
                         >
                           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                           <rect width="4" height="12" x="2" y="9" />
@@ -633,10 +633,10 @@ function page() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="1.25"
+                          strokeWidth="1.25"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="lucide lucide-instagram"
+                          className="lucide lucide-instagram"
                         >
                           <rect
                             width="20"
