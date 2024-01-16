@@ -68,7 +68,7 @@ export default function Home() {
           2nd - 3rd March 2024
         </div>
         <div className='hero-col-link'>
-          <Link href=''>
+          <Link href='https://devignite.devfolio.co/'>
           <div className='dev-f-logo'>
             <Image
               src='/Devfolio_Logo-White.png'
