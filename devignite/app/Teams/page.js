@@ -281,7 +281,7 @@ function page() {
                 <div className="profile-box">
                   <div className="profile-img">
                     <Image
-                      src="/teams/sangharaj.jpg"
+                      src="/teams/sangharaj.jpeg"
                       width="500"
                       height="500"
                       alt="team"

@@ -1,0 +1,26 @@
+.ham-button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+    z-index: 99;
+  }
+  
+  .ham-button.open {
+    transform: rotate(45deg);
+  }
+  
+  .ham-button .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ham-button.open .bar {
+    background-color: #000; /* Change to the desired color for the cross button */
+  }
+  
