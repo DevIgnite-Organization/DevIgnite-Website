@@ -139,7 +139,7 @@ function page() {
                   </div>
                   <div className="profile-details">
                     <div className="profile-name">Anas Khan</div>
-                    <div className="profile-tag">Co-Lead Organizer</div>
+                    <div className="profile-tag">Jt. Lead Organizer</div>
                     <div className="profile-links">
                       <Link href="">
                         <svg
@@ -214,7 +214,7 @@ function page() {
                   </div>
                   <div className="profile-details">
                     <div className="profile-name">Siddiqui Danish</div>
-                    <div className="profile-tag">Co-Lead Organizer</div>
+                    <div className="profile-tag">Jt. Lead Organizer</div>
                     <div className="profile-links">
                       <Link href="">
                         <svg
