@@ -13,7 +13,7 @@ function BottomBar() {
                 </Link>
             </div>
             <div className='copy-right-main'>
-                Design and Developed by Tech Team Devignite
+                Design and Developed by Tech Team Devignite 2024
             </div>
         </div>
     )
