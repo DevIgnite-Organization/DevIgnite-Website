@@ -166,22 +166,27 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
-    padding: 10px 20px;
+    padding: 10px 0px;
   }
   .profile-box{
-    width: 100px;
+    width: 140px;
+    border-radius: 5px;
     height: auto;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+    border: solid 1px #fff;
+
   }
   
 .profile-name{
-  font-size: .9rem;
+  font-size: .7rem;
   color: #fff;
+  font-weight: 500;
+  white-space: nowrap;
 }
   .profile-img{
     width: 50px;
@@ -191,6 +196,12 @@
     display: flex;
     justify-content: center;
   
+  }
+  .profile-tag{
+    font-size: .6rem;
+    color: #ebebeb;
+  white-space: nowrap;
+
   }
     .partners-main{
         width: 100%;
