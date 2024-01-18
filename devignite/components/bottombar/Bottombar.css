@@ -31,7 +31,7 @@
         position: fixed;
         bottom: 0;
         backdrop-filter: blur(10px);
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(29, 29, 29, 0.1);
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -55,7 +55,7 @@
     
     .copy-right-main{
         font-size: .6rem;
-        color: #CFCFCF;
+        color: #f4f4f4;
         padding: 0px 20px;
         text-align: right;
         border-left: none;
