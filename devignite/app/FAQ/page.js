@@ -43,8 +43,8 @@ function TracksPage() {
           content="Nada."
         />
         <TrackAccordion
-          title="Is This Hackathon Biginner Friendly?"
-          content="Yes, this hackathon is beginner friendly where we cater to new comers with a great deal of attention."
+          title="Is This Hackathon Beginner Friendly?"
+          content="Yes, this hackathon is beginner friendly where we cater to newcomers with a great deal of attention."
         />
 
         <TrackAccordion
@@ -69,7 +69,7 @@ function TracksPage() {
         />
 
         <TrackAccordion
-          title="Can we Leave the campus After Hackathon starts?"
+          title="Can we Leave the Campus After Hackathon Starts?"
           content="The hackathon is scheduled to last for 24 hours, during which participants are encouraged to stay on campus for an uninterrupted experience. However, if participants choose to go outside the college campus, they do so at their own discretion and assume responsibility for any consequences. Accommodation and meal facilities will be provided on campus, ensuring convenience for those who opt to stay. Team DevIgnite is fully committed to addressing any urgent requirements of participants, aiming to facilitate a smooth and enjoyable experience throughout the event."
         />
 
