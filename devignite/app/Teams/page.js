@@ -51,6 +51,7 @@ function page() {
                   <div className="profile-details">
                     <div className="profile-name">Dr.Umakant Gohatre</div>
                     <div className="profile-tag">Faculty Co-ordinator</div>
+                    <div className="profile-tag">SIGCE</div>
                   </div>
                 </div>
                 <div className="profile-box">
