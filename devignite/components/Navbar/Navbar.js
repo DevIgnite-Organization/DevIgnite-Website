@@ -51,12 +51,12 @@ function Navbar() {
                     </Link>
                 </div> */}
                 <div className='link-box'>
-                    <Link href=''>
+                    <Link href='/Aboutus'>
                         About us
                     </Link>
                 </div>
                 <div className='link-box'>
-                    <Link href=''>
+                    <Link href='/FAQ'>
                         FAQ
                     </Link>
                 </div>
