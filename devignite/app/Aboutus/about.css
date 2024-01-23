@@ -38,6 +38,7 @@ main {
   gap: 10px;
   font-size: 1rem;
   color: #ffffff;
+  background: #3b3b3ba6;
   padding: 10px;
   border-radius: 20px;
 }
@@ -115,7 +116,6 @@ main {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 15px;
     font-size: .95rem;
     color: #ffffff;
