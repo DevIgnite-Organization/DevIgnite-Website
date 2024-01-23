@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </div>
         <div className='hero-col-slogan'>
-          "Where Code Ignite Innovation"
+          "Where Code Ignites Innovation"
         </div>
         <div className='hero-col-date'>
           2nd - 3rd March 2024
