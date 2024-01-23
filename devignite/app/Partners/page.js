@@ -42,7 +42,7 @@ function Partners() {
                            
                             <div className='gold-div'>
                                 <div className='heading-p-d'>
-                                    Platinum
+                                    Gold
                                 </div>
                                 <div className='gold-logo-group'>
                                 <div className='gold-logo-div'>
@@ -72,7 +72,7 @@ function Partners() {
                             </div>
                             <div className='platinum-div'>
                                 <div className='heading-p-d'>
-                                    Gold
+                                    Silver
                                 </div>
                                 <div className='platinum-logo-div'>
                                 <Image
