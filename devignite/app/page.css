@@ -66,7 +66,7 @@
   margin: 0;
   line-height: 1;
   padding: 0;
-  font-size: 200px;
+  font-size: clamp(3.5rem, 8.889vw + 1.833rem, 12.5rem);
   font-weight: 700;
   background: linear-gradient(92deg, #6943BA 2.61%, #BD46A2 50.72%, #8F00FF 97.36%);
   background-clip: text;
@@ -169,7 +169,6 @@
     margin-top: 30px;
     line-height: 1;
     padding: 0;
-    font-size: 4rem;
     font-weight: 700;
     background: linear-gradient(92deg, #6943BA 2.61%, #BD46A2 50.72%, #8F00FF 97.36%);
     background-clip: text;
