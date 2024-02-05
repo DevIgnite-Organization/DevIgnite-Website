@@ -13,7 +13,6 @@
 .navbar-main .nav-menu {
     width: 40%;
     padding: 10px 0px;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,7 +29,6 @@
 .ham-button {
     cursor: pointer;
     display: none;
-    /* Hide by default on larger screens */
 }
 
 .bar {
@@ -39,11 +37,14 @@
     background-color: #f3f3f3;
     margin: 6px 0;
 }
-
-
-
 /* Navbar.css */
 
+
+@media (min-width: 757px)  and (max-width: 1200px) {
+    .navbar-main .nav-menu {
+        width: 70%;
+    }
+}
 @media screen and (max-width: 756px) {
     .navbar-main {
         width: 100%;
@@ -84,22 +85,11 @@
 
     .ham-button {
         display: block;
-    }
-}
-
-/* HamButton.css */
-
-.ham-button {
-    cursor: pointer;
-    display: none;
-    /* ... */
-}
-
-@media screen and (max-width: 756px) {
-    .ham-button {
-        display: block;
         z-index: 101;
     }
 }
+
+
+
 
 
