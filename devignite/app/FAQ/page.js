@@ -36,7 +36,7 @@ function TracksPage() {
       <div className='a-main'>
         <TrackAccordion
           title="Team Size?"
-          content="3-4"
+          content="2-4"
         />
         <TrackAccordion
           title="Registration costs??"
