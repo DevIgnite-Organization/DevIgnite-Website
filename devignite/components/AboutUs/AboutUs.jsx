@@ -26,9 +26,9 @@ function AboutUs() {
           <a href='https://devignite.devfolio.co/'>Click here to Register</a>
         </p>
         
-        <h3 className="text-xl font-semibold text-gray-900 mb-4">Contact:</h3>
+        <h3 className="text-xl font-semibold text-gray-900 mb-4">Contact</h3>
         <p className="text-lg leading-8 text-gray-600 mb-6">
-          
+        contact@devignite.tech
         </p>
       </div>
 

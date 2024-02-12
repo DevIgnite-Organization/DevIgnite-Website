@@ -11,7 +11,7 @@ function IkPartners() {
         { name: 'GiveMyCertificate', src: '../../gmc.png', alt: 'GiveMyCertificate', category: 'Certificate Partner', color: 'gray-700' },
         { name: 'ScrollJourney', src: '../../sj.png', alt: 'ScrollJourney', category: 'Blogging Partner', color: 'gray-700' },
         { name: 'Interview Buddy ', src: '../../ib.png', alt: 'Interview Buddy ', category: ' Interview Partner', color: 'gray-700' },
-        { name: 'echo3D', src: '../../echo3D_1.png', alt: 'echo3D ', category: ' API Partner', color: 'gray-700' },
+        { name: 'echo3D', src: '../../echo3d_1.png', alt: 'echo3D ', category: ' API Partner', color: 'gray-700' },
      
         // Add more sponsor objects as needed
     ];
