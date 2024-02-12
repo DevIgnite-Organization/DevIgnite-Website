@@ -33,7 +33,7 @@ function Prize() {
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Prizes</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                         Our hackathon offers exciting rewards and recognition for participants who demonstrate outstanding innovation and creativity. Throughout the event, participants will have the opportunity to compete for various awards and honors.
-                        
+
                     </p>
 
                 </div>
@@ -41,7 +41,7 @@ function Prize() {
                     <div className="p-8 sm:p-10 lg:flex-auto">
                         <h3 className="text-2xl font-bold tracking-tight text-gray-900">Competition Goals</h3>
                         <p className="mt-6 text-base leading-7 text-gray-600">
-                        We encourage all participants to strive for excellence and unleash their full potential to be in the running for these prestigious accolades!
+                            We encourage all participants to strive for excellence and unleash their full potential to be in the running for these prestigious accolades!
                         </p>
                         <div className="mt-10 flex items-center gap-x-4">
                             <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">What’s included</h4>
@@ -82,8 +82,9 @@ function Prize() {
                   Get access
                 </a> */}
                                 <p className="mt-6 text-xs leading-5 text-gray-600">
-                                Terms and conditions apply. Please refer to the official rules for more details.
+                                    Exciting prizes await the winners! Get ready to showcase your skills and compete for the rewards.
                                 </p>
+
                             </div>
                         </div>
                     </div>

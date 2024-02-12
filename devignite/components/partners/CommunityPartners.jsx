@@ -48,7 +48,7 @@ function CommunitySponsor({ sponsor, variants }) {
     >
       <p className={`text-sm font-medium text-${sponsor.color}`}>{sponsor.category}</p>
       <img
-        className="max-h-12 w-full object-contain"
+        className="max-h-[110px] w-full object-contain"
         src={sponsor.src}
         alt={sponsor.alt}
         width={180}
