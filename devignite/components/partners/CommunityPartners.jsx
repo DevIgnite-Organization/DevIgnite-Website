@@ -5,8 +5,8 @@ import { useInView } from 'react-intersection-observer';
 
 function CommunityPartners() {
   const comSponsors = [
-    { name: 'GDSC SIGCE', src: '../../gdsc-sigce.png', alt: 'GDSC SIGCE',  color: 'gray-700' },
-    { name: 'TheDevArmy', src: '../../devarmy.png', alt: 'TheDevArmy', color: 'gray-700' },
+    { name: 'GDSC SIGCE', src: '../../gdsc-sigce.png', alt: 'GDSC SIGCE', category:'Collaboration Partner', color: 'gray-700' },
+    { name: 'TheDevArmy', src: '../../devarmy.png', alt: 'TheDevArmy', category:'Social Partner',  color: 'gray-700' },
   
   ];
 
