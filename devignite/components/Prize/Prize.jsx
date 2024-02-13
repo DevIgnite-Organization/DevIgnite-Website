@@ -62,7 +62,7 @@ function Prize() {
                     <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0 flex items-center justify-center">
                         <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                             <div className="mx-auto max-w-xs px-8">
-                                <p className="text-base font-semibold text-gray-600 mb-5">Prize Pool Upto</p>
+                                <p className="text-base font-semibold text-gray-600 mb-5">Prize Pool Worth</p>
                                 <div className='flex items-center justify-center flex-col'>
                                     <img
                                         className="h-20 w-auto"
@@ -70,8 +70,8 @@ function Prize() {
                                         alt=""
                                     />
                                     <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                        <span className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900">₹2Lakh +</span>
-                                        <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">INR</span>
+                                        <span className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900">₹2 Lakh +</span>
+                                        {/* <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">INR</span> */}
                                     </p>
                                 </div>
 
