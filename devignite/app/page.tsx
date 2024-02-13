@@ -8,6 +8,7 @@ import FAQ from '@/components/FAQ/FAQ';
 import Footer from '@/components/Footer/Footer';
 import AboutUs from '@/components/AboutUs/AboutUs';
 import Schedule from '@/components/schedule/Schedule';
+import Navbar from '@/components/Navbar/Navbar'
 import Ikpartners from '@/components/partners/Ikpartners';
 import CommunityPartners from '@/components/partners/CommunityPartners';
 import Image from "next/image";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <main>
       <Banner />
+     <Navbar />
       <Hero />
       <Partners />
       <Ikpartners />
