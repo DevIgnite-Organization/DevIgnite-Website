@@ -23,7 +23,7 @@ function FAQ() {
         },
         {
             question: 'What are the eligibility criteria for participation in Devignite?',
-            answer: 'Anyone and everyone who is a tech enthusiast and an avid learner is encouraged to participate. There are no specific eligibility criteria as such. From students to working professionals, an avid interest in engaging and contributing to the community is all that DevIgnite looks for in its participants. So, if you want to explore, network, and contribute to exciting projects, you are welcome.',
+            answer: 'Anyone and everyone who is a tech enthusiast student is encouraged to participate. an avid interest in engaging and contributing to the community is all that DevIgnite looks for in its participants. So, if you want to explore, network, and contribute to exciting projects, you are welcome.',
         },
         {
             question: 'When and Where is the event happening?',

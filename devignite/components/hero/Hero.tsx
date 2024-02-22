@@ -75,7 +75,10 @@ function Hero() {
       }
     `}</style>
               <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Devignite Navi Mumbai's First Ever Grand Hackathon
+                DevIgnite Navi Mumbai's First Ever Grand Hackathon
+              </h1>
+              <h1 className="text-2xl font-bold tracking-tight text-gray-600 sm:text-4xl mt-3">
+                2nd - 3rd March
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Join us as we bring together tech enthusiasts from diverse backgrounds to ignite innovation and creativity at Navi Mumbai's inaugural Grand Hackathon.

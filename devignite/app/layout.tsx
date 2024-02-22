@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "DevIgnite",
-  description: "DevIgnite Hackathon",
+  description: "The Ultimate Hackathon Experience",
 };
 
 export default function RootLayout({
