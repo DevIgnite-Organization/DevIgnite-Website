@@ -11,6 +11,7 @@ import Schedule from '@/components/schedule/Schedule';
 import Navbar from '@/components/Navbar/Navbar'
 import Ikpartners from '@/components/partners/Ikpartners';
 import CommunityPartners from '@/components/partners/CommunityPartners';
+import Slider from '@/components/Slider/Slider';
 import Image from "next/image";
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <FAQ />
       <AboutUs />
       <Footer />
+      {/* <Slider /> */}
     </main>
   );
 }

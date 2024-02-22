@@ -5,6 +5,7 @@ import { useInView } from 'react-intersection-observer';
 
 function IkPartners() {
     const ikSponsors = [
+        { name: 'verbwire', src: '../../verbwire.svg', alt: 'verbwire', category: 'Web3 Partner', color: 'gray-700' },
         { name: 'Codedamn', src: '../../codedamn.png', alt: 'Codedamn', category: 'Coding Partner', color: 'gray-700' },
         { name: 'BlueLearn', src: '../../blue_learn_1.png', alt: 'BlueLearn', category: 'Submission Partner', color: 'gray-700' },
         { name: '.xyz', src: '../../xyz_logo.png', alt: '.xyz', category: ' Domain Partner', color: 'gray-700' },
