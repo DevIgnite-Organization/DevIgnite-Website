@@ -100,7 +100,7 @@ function Hero() {
                 </div>
                 <div className="flex-shrink-0" style={{ width: "fit-content" }}>
                   <a
-                    href="https://discord.gg/tu2thmhG"
+                    href="https://discord.gg/MC53yv4M35"
                     className="flex gap-2 items-center rounded-md bg-white-600 px-3.5 py-2.5 text-sm font-semibold text-indigo shadow-sm hover:bg-white-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     <img
