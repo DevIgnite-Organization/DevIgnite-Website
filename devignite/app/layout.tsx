@@ -4,7 +4,8 @@ import "./globals.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBrain, faLink, faLock, faCloud, faGlobe, faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react"
 library.add(faBrain, faLink, faLock, faCloud, faGlobe, faStar);
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <SpeedInsights/>
+        <Analytics/>
         </body>
     </html>
   );
