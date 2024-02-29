@@ -27,7 +27,7 @@ const HackathonSchedule = () => {
     {
       date: 'Day 1',
       events: [
-        { time: '08:00 AM - 10:0 AM', name: 'Morning Registration' },
+        { time: '08:00 AM - 10:00 AM', name: 'Morning Registration' },
         { time: '10:00 AM - 11:00 AM', name: 'Opening Ceremony' },
         { time: '11:00 AM', name: 'Hackathon Kickoff' },
         { time: '01:00 PM - 02:30 PM', name: 'Lunch' },
@@ -40,9 +40,9 @@ const HackathonSchedule = () => {
       events: [
         { time: '03:00 AM - 04:00 AM', name: 'Mid-Night Snack' },
         { time: '8:00 AM - 9:00 AM', name: 'Breakfast' },
-        { time: '10:50 AM - 11.00', name: 'Hackathon Submission' },
-        { time: '12.30 PM - 01.30', name: 'Lunch' },
-        { time: '01.30 onwards ', name: 'Final Round, Results and Closing Ceremony' },
+        { time: '10:50 AM - 11.00 AM', name: 'Hackathon Submission' },
+        { time: '12.30 PM - 01.30 PM', name: 'Lunch' },
+        { time: '01.30 PM onwards ', name: 'Final Round, Results and Closing Ceremony' },
       ]
     }
   ];
