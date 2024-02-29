@@ -1,78 +1,60 @@
-import React from 'react'
+import React from 'react';
 
-function Schedule() {
-    const posts = [
-        {
-            id: 1,
-            title: 'Boost your conversion rate',
-            href: '#',
-            description:
-                'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-            date: 'Mar 16, 2020',
-            datetime: '2020-03-16',
-            category: { title: 'Marketing', href: '#' },
-        },
+const Schedule = ({ events }) => {
+  return (
+    <div className="bg-white mt-8 shadow overflow-hidden sm:rounded-md" id='schedule'>
+      {events.map((day, index) => (
+        <div key={index} className={`${index !== 0 ? 'mt-8' : ''}`}>
+          <h2 className="text-xl font-bold px-4 pt-4 text-center">{day.date}</h2>
+          {day.events.map((event, index) => (
+            <div key={index} className="border-b border-gray-200">
+              <div className="px-4 py-5 sm:px-6 flex justify-center items-center flex-col">
+                <h3 className="text-lg leading-6 font-medium text-gray-900">{event.time}</h3>
+                <p className="mt-1 max-w-2xl text-base text-center text-gray-500">{event.name}</p>
 
-        {
-            id: 1,
-            title: 'Boost your conversion rate',
-            href: '#',
-            description:
-                'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-            date: 'Mar 16, 2020',
-            datetime: '2020-03-16',
-            category: { title: 'Marketing', href: '#' },
-        },
-
-        {
-            id: 1,
-            title: 'Boost your conversion rate',
-            href: '#',
-            description:
-                'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-            date: 'Mar 16, 2020',
-            datetime: '2020-03-16',
-            category: { title: 'Marketing', href: '#' },
-        },
-        // More posts...
-    ]
-    return (
-        <div className="mx-auto max-w-7xl px-6 lg:px-8 py-20">
-        <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simple no-tricks pricing</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et quasi iusto modi velit ut non voluptas
-            in. Explicabo id ut laborum.
-          </p>
-        </div>
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {posts.map((post) => (
-            <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
-              <div className="flex items-center gap-x-4 text-xs">
-                <time dateTime={post.datetime} className="text-gray-500">
-                  {post.date}
-                </time>
-                <a
-                  href={post.category.href}
-                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-                >
-                  {post.category.title}
-                </a>
               </div>
-              <div className="group relative">
-                <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                  <a href={post.href}>
-                    <span className="absolute inset-0" />
-                    {post.title}
-                  </a>
-                </h3>
-                <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
-              </div>
-            </article>
+
+            </div>
           ))}
         </div>
-      </div>
-  )
-}
+      ))}
+    </div>
+  );
+};
 
-export default Schedule
+const HackathonSchedule = () => {
+  const days = [
+    {
+      date: 'Day 1',
+      events: [
+        { time: '08:00 AM - 10:00 AM', name: 'Morning Registration' },
+        { time: '10:00 AM - 11:00 AM', name: 'Opening Ceremony' },
+        { time: '11:00 AM', name: 'Hackathon Kickoff' },
+        { time: '01:00 PM - 02:30 PM', name: 'Lunch' },
+        { time: '05:00 PM - 06:00 PM', name: 'Snack & Tea' },
+        { time: '09:00 PM - 10:00 PM', name: 'Dinner' },
+      ]
+    },
+    {
+      date: 'Day 2',
+      events: [
+        { time: '03:00 AM - 04:00 AM', name: 'Mid-Night Snack' },
+        { time: '8:00 AM - 9:00 AM', name: 'Breakfast' },
+        { time: '10:50 AM - 11.00 AM', name: 'Hackathon Submission' },
+        { time: '12.30 PM - 01.30 PM', name: 'Lunch' },
+        { time: '01.30 PM onwards ', name: 'Final Round, Results and Closing Ceremony' },
+      ]
+    }
+  ];
+
+  return (
+    <div className="container mx-auto px-4 py-8 flex justify-center">
+      <div className="w-full lg:w-2/3">
+        <h2 className="text-3xl  text-center font-bold tracking-tight text-gray-900 sm:text-4xl">Hackathon Schedule</h2>
+        <Schedule events={days} />
+      </div>
+    </div>
+  );
+};
+
+export default HackathonSchedule;

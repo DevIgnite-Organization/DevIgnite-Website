@@ -36,14 +36,15 @@ function Banner() {
             <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
                 <circle cx={1} cy={1} r={1} />
             </svg>
-            Registration closes in: {remainingTime}
+            The Schedule is Live!
+            {/* Registration closes in: {remainingTime} */}
         </div>
         {/* Register Button */}
         <a
-            href='https://devignite.devfolio.co/'
+            href='#schedule'
             className="flex-none rounded-full bg-gray-50 text-gray-900 px-3.5 py-1 text-sm font-semibold shadow-sm hover:bg-gray-700 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
-            Register now <span aria-hidden="true">&rarr;</span>
+            Open <span aria-hidden="true">&rarr;</span>
         </a>
         {/* Dismiss Button */}
         <div className="flex flex-1 justify-end">
