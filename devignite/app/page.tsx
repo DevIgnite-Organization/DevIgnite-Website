@@ -18,14 +18,14 @@ export default function Home() {
   return (
     <main>
       <Banner />
-     <Navbar />
+      <Navbar />
       <Hero />
       <Partners />
       <Ikpartners />
       <CommunityPartners />
       <HackathonTracks />
       <Prize />
-      {/* <Schedule /> */}
+      <Schedule />
       <Teams />
       <FAQ />
       <AboutUs />
