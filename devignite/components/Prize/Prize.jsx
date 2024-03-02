@@ -4,11 +4,11 @@ import { CheckIcon } from "@heroicons/react/20/solid";
 import { useInView } from "react-intersection-observer";
 
 const includedFeatures = [
-  "Top 10 teams will get 1 Year of Codedamn Pro Memebership",
+  "Top 10 teams will get 1 Year of Codedamn Pro Membership",
   "Best use of Orkes Conductor will get special kits from Orkes",
   "125 Domains from XYZ.com ",
   "Chance to get $5,000 worth of API Credits from VERBWIRE",
-  " Chance to win $50 and job opportunities from REPLIT",
+  "Chance to win $50 and job opportunities from REPLIT",
   "Chance to win $350 from POLYGON",
   "Swags and Goodies",
   "Much more",
